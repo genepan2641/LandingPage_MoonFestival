@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/lunar.css">
+</head>
+<body>
+	<div class="wrapper">  
+    <a id="top-homepage" href="#">潔客幫官方網站</a>
+    <div class="counter">
+        距離<span>中秋獻禮</span>活動截止時間還有：
+        <br>
+        <div class="counterNum">
+            <span id="day"></span>天
+            <span id="hour"></span>時
+            <span id="min"></span>分
+            <span id="sec"></span>秒
+        </div>
+    </div>
+</div>
+
+<div class="campaign max-wid">
+    <ul class="cam-btn nav">
+        <li class="col-md-3"><a href="#cam-1">一人中獎&nbsp;好友同享</a></li>
+        <li class="col-md-3"><a href="#cam-2">好友分享優惠加碼</a></li>
+        <li class="col-md-3"><a href="#tutorial">如何邀請好友？</a></li>
+        <li class="col-md-3"><a href="#service-intro">關於潔客幫</a></li>
+    </ul>
+    <div class="cam-1 max-wid gray-bg" id="cam-1">
+        <div class="cam-title">
+            <h2>一人中獎&nbsp;好友同享</h2>
+            <p>為慶祝中秋節，潔客幫提供價值千元好禮，讓你不只一人中獎，好友也能分享您的喜悅！</p>
+<!--             <img class=" col-md-offset-1 col-md-10 col-md-offset-1" src="<?php echo base_url('Assets/img/lunarFriends.png');?>" alt="一人中獎好友同享">
+ -->        </div>
+        <div class="cam-content">
+            <ul class="content-list">
+                <li><span>活動辦法：</span>凡在活動<em>（2015/09/01至 09/28 24:00止）</em>期間，到<a href="https://www.facebook.com/jackercleaner">潔客幫Facebook粉絲頁活動貼文</a>底下留言<strong>「中秋烤肉不怕髒，清潔交給潔客幫」</strong>+<strong>tag兩名好友</strong>，並分享貼文至動態時報，就有機會抽中價值千元的免費居家清潔服務。中秋連假<em>（9/26~28）</em>天天抽3名，快邀請親朋好友一起參加抽獎！</li>
+                <li><span>活動獎項：</span>總價$2000元的居家清潔服務。中獎者可獲得<strong>3小時</strong><em>（價值1200元）</em>的潔客幫居家清潔服務，被標記的兩名幸運好友也能各獲得<strong>1小時</strong><em>（價值400元）</em>的居家清潔服務。</li>
+                
+                <a href="https://goo.gl/1aGjLH" target="_blank">馬上到Facebook分享貼文抽好禮！</a>
+
+                <li><span>參加者限制：</span>活動期間，每個Facebook帳號僅限抽獎一次，以留言者Facebook帳號為抽獎對象。</li>
+                <li><span>得獎名單公佈：</span>中秋連假<em>（9/26~28）</em>天天抽三名，於次日14:00公布於<a href="https://www.facebook.com/jackercleaner">潔客幫粉絲團</a>。</li>
+                <li><span>獎品使用方式：</span>凡中獎的朋友，請於2014/10/5 18:00前私訊潔客幫Facebook，我們會在收到私訊後，以Facebook私訊統一發送優惠代碼，可於潔客幫官網預定居家清潔服務時直接折抵。</li>
+                <li>此優惠僅限於預定單次居家清潔，不得與其他優惠合併使用。</li>
+                <li id="tips"><span>祕技：</span>抽獎以留言者Facebook帳號為主。被標記的好友亦可再依活動辦法標記其他好友參加抽獎，以此類推，大大提高中獎機率！</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cam-2 max-wid gray-bg" id="cam-2">
+        <div class="cam-title">
+            <h2>好友分享優惠<strong>加碼</strong></h2>
+            <p>潔客幫9月限定，中秋加碼好友分享優惠，現在就邀請親朋好友體驗潔客幫，立刻獲得600元等值服務。</p>
+        </div>
+        <div class="cam-content ">
+            <ul class="content-list">
+                <li><span>加碼優惠期間：</span>9/1~9/30</li>
+                <li><span>活動辦法：</span>原有<a href="#">好友邀請活動</a>在優惠期間加碼<strong>再送0.5小時</strong>！想了解怎麼邀請好友<a href="#tutorial">請見這裡</a>！</li>
+                <li><span>優惠使用期限</span>：至104/12/31止</li>
+                <li>此優惠僅限於預定單次居家清潔，不得與其他優惠合併使用。</li>
+                <li id="tips"><span>祕技：</span>直接在Facebook分享你的優惠連結，讓更多人替你賺取優惠。</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tutorial max-wid gray-bg" id="tutorial">
+        <div class="cam-title">
+            <h2>如何邀請好友？</h2> 
+        </div>
+        <div class="cam-content">
+            <img id="invite-image" src="./img/invite-04.png" alt="">
+            <ol class="content-list">
+                <li>
+                    進入<a href="http://www.jackercleaning.com/activity/share/info">邀請活動頁面</a>（將會需要您進行會員登入）
+                </li>
+                <li>
+                    選擇傳送方式，並將代碼發送給您的好友</li>
+                <li>
+                    你的好友可立即獲得免費優惠
+                </li>
+                <li>
+                    <strong>在好友使用後(重要！)</strong>，你即可獲得免費優惠
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="service-intro gray-bg" id="service-intro">
+        <div class="cam-title">
+            <h2>關於潔客幫</h2>
+            <p>↓我們提供便利、CP高的清潔服務，包含↓</p>
+        </div>
+        <div  id="services">
+            <div class="links">
+                <a href="<?php echo base_url();?>">潔客幫官方網站</a>
+                <a href="<?php echo site_url('book/choice');?>">馬上預約</a>
+            </div>
+            <div class="service-item">
+                <div class="house-cleaning">
+                    <!-- <h3>1.居家清潔</h3> -->
+                    <img src="./img/serviceTypeA.png" alt="居家清潔">
+                    <p>一般之家庭環境整潔，適合需要平時居家環境清潔的你</p>
+                </div>
+                <div class="overall">
+                    <!-- <h3>2.大掃除</h3> -->
+                    <img src="./img/serviceTypeB.png" alt="大掃除">
+                    <p>長久未打掃清潔或是灰塵、油汙、髒垢累積厚重需大掃除清潔，適合搬家前後、看屋前、久無人居的清潔處所</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="./js/jquery-1.10.2.js"></script>
+<script src="./js/jquery.timers.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script>
+	var now = new Date();
+// var startDate = new Date('2015/9/31 23:59');
+var endDate = new Date('2017/9/30 23:59:59');
+//total seconds//
+var spantime = (endDate - now.getTime())/1000;
+
+ $(document).ready(function () {
+        $(this).everyTime('1s', function(i) {
+             spantime --;
+
+             var d = Math.floor(spantime / (24 * 3600));
+             var h = Math.floor((spantime % (24*3600))/3600);
+             var m = Math.floor((spantime % 3600)/(60));
+             var s = Math.floor(spantime % 60);
+ 
+             if(spantime > 0){
+                $("#day").text(d);
+                $("#hour").text(h);
+                $("#min").text(m);
+                $("#sec").text(s);
+             }else{ // 避免倒數變成負的
+                $("day").text(0);
+                $("#hour").text(0);
+                $("#min").text(0);
+                $("#sec").text(0);
+             }
+         });
+   });
+
+$(document).ready(function () {
+    var init=function(){
+        $('.nav li a').click(function() {
+            $('.nav').addClass('fix');
+            var target = $(this).attr('href');
+            var scrt = $(target).offset().top;
+            if (target !== '#cam-1') {
+                scrt -= $('ul.nav').height();
+            }
+            $("html,body").animate({
+                scrollTop: scrt}, 'fast'
+            ); 
+            return false;
+        });
+
+        var critical = $('.nav').offset().top;
+        // if (window.screen.availWidth > 768) {
+            $(window).scroll(function() {
+                if ($(window).scrollTop()>critical) {
+                    $('.nav').addClass('fix');
+                    $('#cam-1').css("padding-top", "72px");
+                }else{
+                    $('.nav').removeClass('fix');
+                    $('#cam-1').css("padding-top", "0px");
+                }
+            });
+        // };
+    }
+    init();
+});
+
+
+</script>
+</body>
+</html>
+
+
+

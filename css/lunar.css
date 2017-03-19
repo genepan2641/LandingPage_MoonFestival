@@ -1,0 +1,419 @@
+* {
+  font-family:Microsoft YaHei, Apple LiGothic Medium;
+}
+
+
+
+body {
+  background      :url("../img/lunarCover.png") center top no-repeat;
+  background-size : 100%;
+  background-color: #000018;
+}
+
+a {
+  color: #FC0000;
+}
+
+a:hover {
+  font-weight: bold;
+  color      : #000018;
+}
+
+strong {
+  color: #39A7E6;
+}
+
+span {
+  font-weight: bold;
+}
+
+em {
+  font-size: 12px;
+}
+
+.wrapper {
+  height: 625px;
+}
+.max-wid {
+  width : 1000px;
+  margin: 0 auto;
+}
+
+.gray-bg {
+  background-color: #F9F9F9;
+}
+
+.nav {
+  width:1000px;
+}
+
+.fix {
+  position: fixed;
+  top     : 0;
+}
+
+
+/*seperated item style*/
+.counter {
+  position : relative;
+  top      : 230px;
+  left     : 80px;
+  color    : #FEE8B1;
+  font-size: 20px;
+  width    : 350px;
+}
+
+.counterNum {
+  font-size  : 35px;
+  text-shadow: 3px 3px 1px #1A1047;
+}
+
+#top-homepage {
+  color      : #39A7E6;
+  width      : 12%;
+  font-size  : 18px;
+  margin-left: 5%;
+  display    : block;
+  text-align : center;
+  border     : 1px solid #39A7E6;
+}
+
+#top-homepage:hover {
+  font-weight: normal;
+  color           : #F9F9F9;
+  text-decoration : none;
+  background-color: #39A7E6;
+}
+
+
+ul.cam-btn{
+  list-style: none;
+}
+
+.cam-btn li {
+  font-size : 20px;
+  display   : block;
+  padding   : 12px 20px;
+  text-align: center;
+  background: #22AC93;
+}
+
+.cam-btn li:nth-child(2) {
+  background: #FFC500;
+}
+
+.cam-btn li:nth-child(3) {
+  background: #22AC93;
+}
+
+.cam-btn li:nth-child(4) {
+  background: #FFC500;
+}
+
+.cam-btn a {
+  color: #F7F3EB;
+  text-decoration: none;
+}
+
+.cam-btn a:hover {
+  color: #F7F3EB;
+}
+
+.cam-title {
+  text-align: center;
+}
+
+.cam-title h2 {
+  font-size  : 45px;
+  padding-top: 30px;
+  margin-top : 0px;
+}
+
+.cam-title p {
+  font-size: 16px;
+}
+
+.content-list {
+  margin   : 30px auto 0px;
+  padding  : 50px;
+  width    : 70%;
+  font-size: 16px;
+}
+
+.content-list li {
+  margin-bottom: 10px;
+}
+
+.content-list>a {
+  text-align      : center;
+  display         : block;
+  color           : #F7F3EB;
+  width           : 60%;
+  margin          : 50px auto;
+  padding         : 20px 30px;
+  background-color: #FFC500;
+  border-radius   : 10px;
+  text-decoration : none;
+
+}
+
+.cam-content {
+  margin    : 0 auto;
+  width     : 90%;
+  background: #F7F3EB;
+}
+
+li#tips {
+  color: #39A7E6;
+}
+
+#tutorial h2 {
+  margin-bottom: 30px;
+}
+
+img#invite-image {
+  margin-top : 50px;
+  margin-left: 50px;
+  height     : 200px; 
+  width      : 800px; 
+}
+
+ol.content-list {
+  padding-top: 20px;
+  margin-left: 220px;
+}
+
+.service-intro {
+  margin-top: 30px;
+}
+
+#services {
+  background     : url("../img/banner1.jpg") bottom no-repeat ;
+  background-size: 140%;
+  margin-top     : 30px ;
+  margin-bottom  : 10px;
+  height: 450px;
+}
+
+#service * {
+  text-align: center;
+}
+/*
+li.service-item {
+  display         : inline-block;
+  vertical-align  : top;
+  background-color: #F7F3EB;
+  width           : 425px;  
+  margin-bottom   : 50px;
+  min-height      : 300px;
+}
+
+ul.service-list,
+li.service-item ul{
+  list-style: none;
+  padding: 0;
+}
+
+li.service-item img {
+  margin               : 30px 0px 30px 27.5%;
+  height               : 172.5px;
+  width                : 195px; 
+  padding              : 18px;
+}
+
+
+li.service-item h3 {
+  color: #39A7E6;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+li.service-item:nth-child(odd) {
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+li.service-item:nth-child(even) {
+  margin-left: 50px;
+} 
+
+li.service-item * {
+  text-align: center;
+}
+
+li.service-item ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}*/
+
+#service-intro {
+  position: relative;
+}
+
+.service-item {
+  margin-left:80px;
+}
+
+.links a {
+  position   : absolute;
+  color      : #39A7E6;
+  width      : 15%;
+  font-size  : 18px;
+  margin-left: 30px;
+  margin-top : 20px;
+  right      : 45px;
+  top        : 15px;
+  border     : 1px solid #39A7E6;
+  text-align : center;
+}
+
+.links a:nth-child(2) {
+  top:55px;
+}
+ 
+.links a:hover {
+  font-weight: normal;
+  color           : #F9F9F9;
+  text-decoration : none;
+  background-color: #39A7E6;
+}
+
+.house-cleaning,
+.overall {
+  display       : inline-block;
+  text-align    : center;
+  vertical-align: top;
+  color         : #F9F9F9;
+  font-size     : 15px;
+  margin-left   : 30px;
+  margin-top    : 120px;
+  margin-bottom : 50px;
+  max-width     : 45%;
+}
+
+.house-cleaning img,
+.overall img {
+  max-width    : 160px;
+  margin-bottom: 20px;
+}
+
+.house-cleaning p,
+.overall p {
+  /*background-color: #39A7E6;*/
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    height: 210px;
+  }
+  .max-wid {
+    width : 100%;
+    margin: 0 auto;
+  }
+  .counter {
+    position : relative;
+    top      : 160px;
+    left     : 30px;
+    color    : #FEE8B1;
+    font-size: 15px;
+    width    : 350px;
+  }
+  #top-homepage {
+    width      : 50%;
+    position: absolute;
+    bottom: 10px;
+    font-size  : 18px;
+    margin-left: 5%;
+    display    : block;
+    text-align : center;
+    border     : 1px solid #39A7E6;
+  }
+  .counter {
+    width: 280px;
+    margin: 0px;
+  }
+  .counterNum {
+    font-size: 15px;
+    text-shadow: 3px 3px 1px #1A1047;
+    width: 280px;
+  }
+  .nav {
+    width:100%;
+    z-index: 1000;
+}
+  .nav li{
+    float: left;
+    width:25%; 
+  }
+  .cam-btn li {
+    font-size : 10px;
+    padding   : 5px;
+    min-height: 50px;
+    background: #22AC93;
+  }
+  .cam-btn li a {
+    padding: 1px;
+  }
+  .cam-btn li:nth-child(2) {
+    background: #FFC500;
+  }
+
+  .cam-btn li:nth-child(3) {
+    background: #22AC93;
+  }
+
+  .cam-btn li:nth-child(4) {
+    background: #FFC500;
+  }
+  .cam-title h2 {
+      font-size: 20px;
+      padding-top: 20px;
+      margin-top: 0px;
+      font-weight: 600;
+  }
+  .content-list {
+    margin: 30px auto 0px;
+    padding: 20px 10px;
+    width: 90%;
+    font-size: 14px;
+  }
+  .content-list>a {
+      text-align: center;
+      display: block;
+      color: #F7F3EB;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #FFC500;
+      border-radius: 10px;
+      text-decoration: none;
+  }
+  img#invite-image {
+      margin-top: 20px; 
+      width: 100%;
+      height: 100%;
+      margin-left:0;
+  }
+  ol.content-list {
+     padding-top:0px; 
+     margin-left:20px; 
+  }
+  .links a {
+      width: 40%; 
+      top: 0px;
+      left: 0px;
+      position: relative;
+  }
+  #services{
+    height: 289px;
+  }
+  .service-intro{
+    margin-top: 20px;
+  }
+  .house-cleaning, .overall {
+      margin-top: 51px;
+      margin-bottom: 0px; 
+      max-width: 60%;
+  }
+
+}
+
