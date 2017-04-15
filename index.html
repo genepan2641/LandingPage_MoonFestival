@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="./css/bootstrap.css">
-	<link rel="stylesheet" href="./css/lunar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="zh-tw" />
+	<link rel="stylesheet" href="./css/bootstrap.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="./css/lunar.css" media="screen" type="text/css" />
 </head>
 <body>
 	<div class="wrapper">  
-    <a id="top-homepage" href="#">潔客幫官方網站</a>
     <div class="counter">
         距離<span>中秋獻禮</span>活動截止時間還有：
         <br>
@@ -23,10 +24,10 @@
 
 <div class="campaign max-wid">
     <ul class="cam-btn nav">
-        <li class="col-md-3"><a href="#cam-1">一人中獎&nbsp;好友同享</a></li>
-        <li class="col-md-3"><a href="#cam-2">好友分享優惠加碼</a></li>
-        <li class="col-md-3"><a href="#tutorial">如何邀請好友？</a></li>
-        <li class="col-md-3"><a href="#service-intro">關於潔客幫</a></li>
+        <li class="col-md-3 col-xs-3"><a href="#cam-1">一人中獎&nbsp;好友同享</a></li>
+        <li class="col-md-3 col-xs-3"><a href="#cam-2">好友分享優惠加碼</a></li>
+        <li class="col-md-3 col-xs-3"><a href="#tutorial">如何邀請好友？</a></li>
+        <li class="col-md-3 col-xs-3"><a href="#service-intro">關於潔客幫</a></li>
     </ul>
     <div class="cam-1 max-wid gray-bg" id="cam-1">
         <div class="cam-title">
@@ -95,8 +96,12 @@
         </div>
         <div  id="services">
             <div class="links">
-                <a href="<?php echo base_url();?>">潔客幫官方網站</a>
-                <a href="<?php echo site_url('book/choice');?>">馬上預約</a>
+                <div class="pull-left">
+                    <a href="<?php echo base_url();?>">潔客幫官方網站</a>
+                </div>
+                <div class="pull-left">
+                    <a href="<?php echo site_url('book/choice');?>">馬上預約</a>
+                </div>     
             </div>
             <div class="service-item">
                 <div class="house-cleaning">
